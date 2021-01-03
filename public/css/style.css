@@ -1,7 +1,7 @@
 :root {
-  --main-bg-color: #edf5fe;
-  --light-blue: #03a9f4;
-  --dark-blue: #028bca;
+  --main-bg-color: #232629;
+  --light-blue: #f0943e;
+  --dark-blue: #83c9e9;
 }
 
 body {
@@ -12,7 +12,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #333;
+  color: rgb(116, 113, 113);
 }
 
 .logo {
@@ -22,7 +22,7 @@ body {
   width: 150px;
 }
 section.download {
-  background: #fff;
+  background: rgb(20, 20, 20);
   width: 430px;
   max-width: 90%;
   border-radius: 25px;
@@ -42,15 +42,15 @@ section.download {
   font-size: 18px;
   padding: 8px 40px;
   margin-top: 15px;
-  background: var(--light-blue);
   text-decoration: none;
   border: none;
   border-radius: 5px;
-  color: #fff;
+  background: black;
+  color: #f0943e;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
 
 .send-btn-container a:hover {
-  background: var(--dark-blue);
+  background: #232629;
 }
